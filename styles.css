@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: url(https://fonts.google.com/specimen/Public+Sans);
   background-color: #fafafa;
   margin: 0;
   padding: 0;
@@ -73,7 +73,7 @@ a {
   align-items: center;
   background-color:#fafafa;
   height: 100vh;
-  margin-left: 130px;
+  margin-left: 250px;
 }
 
 .content-text {
@@ -82,17 +82,17 @@ a {
 
 .content-image {
   position: relative;
-  width: 40%;
-  margin-top: 300px; 
+  width: 50%;
+  margin-top: 230px; 
 }
 
 .content-image .back {
-  width: 180%;        
+  width: 160%;        
   max-width: none;   
   height: auto;
   position: relative;
   left: -15%;         
-  top: -225px;         
+  top: -230px;         
 }
 
 .content-image .mobile {
@@ -118,12 +118,18 @@ h3{
   color: #2d314d;
 
 }
+.why-choose{
+  background-color: #f4f5f7;
+  padding-top: 100px;
+  margin-top: -150px;
+
+}
 .why-choose h2 {
   position: relative; 
   font-size: 30px;
   color: #2d314d;
   font-weight: normal;
-  margin-left: 130px;
+  margin-left: 250px;
   margin-bottom: 30px; 
 }
 
@@ -131,7 +137,7 @@ h3{
   color: #6d7f97;
   font-size: 1rem;
   margin-left: 130px;
-  margin-top: 30px; 
+  margin-left: 250px;
   margin-bottom: 40px;
 }
 .features-container {
@@ -178,7 +184,7 @@ h3{
 
 .latest-articles h2 {
    font-size: 30px;
-   margin-left: 90px;
+   margin-left: 220px;
    font-weight: normal;
 }
 
